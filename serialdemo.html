@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COM Port Data Plot</title>
+    <!-- links to fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarina&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- include chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body style="background-color: #fff7e1;">
+    <h1 style="font-family: Sarina; font-size: 50pt; margin-left: 25%;">Heart Rate Graph</h1>
+    <button id="connect" style="font-family: EB Garamond; font-size: 18pt; background-color: #b1b9a5; border: 0;
+        border-radius: 50px; padding: 1%; margin-left: 35%; width: 18%;">Connect to COM Port</button>
+    <button id="disconnect" disabled style="font-family: EB Garamond; font-size: 18pt; background-color: #b1b9a5; border: 0;
+        border-radius: 50px; padding: 1%; margin-left: 5%; width: 10%;">Disconnect</button>
+    <pre id="output"
+        style="background: #f0f0f0; padding: 10px; border: 1px solid #ccc; max-height: 200px; overflow: auto;"></pre>
+    <!-- graph -->
+        <div style="max-width: 800px">
+        <canvas id="chart" width="800" height="400"
+            style="display: block; box-sizing: border-box; height: 400px; width: 800px;"></canvas>
+    </div> <br>
+    <div id="bpm"></div>
+    <button id="next" style="font-family: EB Garamond; font-size: 18pt; background-color: #b1b9a5; border: 0;
+        border-radius: 50px; padding: 1%; margin-left: 25%; width: 7%;">Next</button>
+
+    <!-- link to app_serialdemo.js -->
+    <script type="module" src="./app_serialdemo.js"></script>
+</body>
+
+</html>

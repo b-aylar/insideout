@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <!-- link to style.css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- links to fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarina&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Sarina&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Quiz</h1>
+    <!-- input for the calculated heart rate -->
+    <div id="heartrate-display" style="margin-left: 10%; margin-bottom: 2%;">
+        Heart Rate: <input id="hr"> BPM
+    </div>
+    <!-- quiz form -->
+    <form method="post" id="quiz">
+        <fieldset>
+            <legend>1. How overwhelmed do you feel by your current academic workload? Rate from 1 (completely
+                manageable) to 5 (drowning in assignments and deadlines).</legend>
+
+            <label class="option">
+                <input type="radio" name="question1" value="1">
+                1
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question1" value="2">
+                2
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question1" value="3">
+                3
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question1" value="4">
+                4
+            </label>
+            <label class="option">
+                <input type="radio" name="question1" value="5">
+                5
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>2. How satisfied are you with your social connections on campus? Consider your feelings of belonging
+                or isolation. Rate from 1 (feeling completely disconnected) to 5 (feeling deeply connected and
+                supported)</legend>
+
+            <label class="option">
+                <input type="radio" name="question2" value="1">
+                1
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question2" value="2">
+                2
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question2" value="3">
+                3
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question2" value="4">
+                4
+            </label>
+            <label class="option">
+                <input type="radio" name="question2" value="5">
+                5
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>3. Consider your present emotional state regarding your future career prospects. How optimistic or
+                worried do you feel right now? Rate from 1 (very pessimistic about the future) to 5 (extremely confident
+                and excited about opportunities)</legend>
+
+            <label class="option">
+                <input type="radio" name="question3" value="1">
+                1
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question3" value="2">
+                2
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question3" value="3">
+                3
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question3" value="4">
+                4
+            </label>
+            <label class="option">
+                <input type="radio" name="question3" value="5">
+                5
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>4. How would you rate your overall emotional well-being, considering factors like your sleep
+                quality, eating habits, and exercise routine? Rate from 1 (feeling physically and emotionally drained)
+                to 5 (feeling energized and emotionally balanced)</legend>
+
+            <label class="option">
+                <input type="radio" name="question4" value="1">
+                1
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question4" value="2">
+                2
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question4" value="3">
+                3
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question4" value="4">
+                4
+            </label>
+            <label class="option">
+                <input type="radio" name="question4" value="5">
+                5
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>5. Imagine that your crush just liked your 3-week old Instagram post. On a scale of 1 to 5, how
+                intensely are you overthinking this? (1 being 'Meh, probably an accident' and 5 being 'Planning our
+                wedding and naming our future pets')</legend>
+
+            <label class="option">
+                <input type="radio" name="question5" value="1">
+                1
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question5" value="2">
+                2
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question5" value="3">
+                3
+            </label>
+
+            <label class="option">
+                <input type="radio" name="question5" value="4">
+                4
+            </label>
+            <label class="option">
+                <input type="radio" name="question5" value="5">
+                5
+            </label>
+
+        </fieldset>
+        <button type="submit" class="quiz" id="quizSubmit">Submit</button>
+    </form>
+    <script type="module" src="app_quiz.js"></script>
+</body>
+
+</html>

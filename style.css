@@ -1,0 +1,120 @@
+body {
+    background-image: url('pics/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sarina-regular {
+    font-family: "Sarina", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.eb-garamond {
+  font-family: "EB Garamond", serif;
+}
+
+h1 {
+    font-family: "Sarina";
+    font-size: 103pt;
+    margin-left: 34%;
+}
+
+h2 {
+    font-family: "Sarina";
+}
+
+.short_h1 {
+    margin-left: 37%;
+}
+
+.long_h1 {
+    font-size: 90pt;
+    margin-left: 30%;
+}
+
+.connect_btn {
+    font-family: "EB Garamond";
+    font-size: 18pt;
+    border: 0;
+    padding: 1%;
+    margin-left: 25%;
+    margin-top: 2%;
+    border-radius: 50px;
+    background-color: #b1b9a5;
+}
+
+div {
+    font-family: "EB Garamond";
+    font-size: 22pt;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -3%;
+}
+
+#form {
+    margin-top: -4%;
+}
+
+.consent {
+    margin-top: 1%;
+}
+
+.check {
+    height: 30px;
+    width: 30px;
+    margin-top: 1%;
+    background-color: #fff7e1;
+    border-radius: 25%;
+}
+
+.quiz {
+    font-family: "EB Garamond";
+    font-size: 22pt;
+    background-color: #b1b9a5;
+    border: 0;
+    border-radius: 50px;
+    padding: 1%;
+    margin-left: 40%;
+    width: 15%;
+}
+
+fieldset {
+    font-family: "EB Garamond";
+    font-size: 22pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+
+.option {
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#quizSubmit {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    gap: 5%;
+}
+
+.emotion {
+    width: 20%;
+}
+
+.character {
+    margin-left: -30%;
+    height: 250px;
+}
+
+.help {
+    margin-left: 20%;
+    height: 300px;
+}
